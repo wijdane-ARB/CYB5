@@ -1,0 +1,11 @@
+{
+  "ceas_rows": 39100,
+  "ceas_labels": {
+    "1": 21795,
+    "0": 17305
+  },
+  "nazario_external_rows": 1564,
+  "conflicting_hashes": 0,
+  "label_semantics_verified": false,
+  "train_test_split_created": false
+}

@@ -1,0 +1,87 @@
+
+============================================================
+DATASET: CEAS_08.csv
+============================================================
+
+1. Shape: (39154, 7)
+
+2. Columns:
+['sender', 'receiver', 'date', 'subject', 'body', 'label', 'urls']
+
+3. Data types:
+sender        str
+receiver      str
+date          str
+subject       str
+body          str
+label       int64
+urls        int64
+
+4. Missing values:
+sender        0
+receiver    462
+date          0
+subject      28
+body          0
+label         0
+urls          0
+
+5. Duplicate rows: 0
+
+6. Label distribution (label):
+label
+1    21842
+0    17312
+
+7. Sample structure:
+sender: Young Esposito <Young@iworld.de>
+receiver: user4@gvc.ceas-challenge.cc
+date: Tue, 05 Aug 2008 16:31:02 -0700
+subject: Never agree to be a loser
+body: [TEXT CONTENT HIDDEN]
+label: 1
+urls: 1
+
+============================================================
+DATASET: Nazario.csv
+============================================================
+
+1. Shape: (1565, 7)
+
+2. Columns:
+['sender', 'receiver', 'date', 'subject', 'body', 'urls', 'label']
+
+3. Data types:
+sender        str
+receiver      str
+date          str
+subject       str
+body          str
+urls        int64
+label       int64
+
+4. Missing values:
+sender       0
+receiver    96
+date         1
+subject      4
+body         0
+urls         0
+label        0
+
+5. Duplicate rows: 0
+
+6. Label distribution (label):
+label
+1    1565
+
+7. Sample structure:
+sender: Mail System Internal Data <MAILER-DAEMON@monkey.org>
+receiver: nan
+date: 28 Sep 2017 09:57:25 -0400
+subject: DON'T DELETE THIS MESSAGE -- FOLDER INTERNAL DATA
+body: [TEXT CONTENT HIDDEN]
+urls: 1
+label: 1
+
+Inspection completed.
