@@ -1,0 +1,41 @@
+{
+  "dataset": "MeAJOR",
+  "total_rows": 108685,
+  "columns": [
+    "sender",
+    "sender_domain",
+    "receiver",
+    "receiver_domain",
+    "date",
+    "subject",
+    "content_types",
+    "body",
+    "urls",
+    "url_count",
+    "url_length_max",
+    "url_length_avg",
+    "url_subdom_max",
+    "url_subdom_avg",
+    "attachment_count",
+    "has_attachments",
+    "attachment_types",
+    "language",
+    "source",
+    "label"
+  ],
+  "label_column": "label",
+  "source_column": "source",
+  "text_column": "body",
+  "label_distribution": {
+    "0.0": 60650,
+    "1.0": 48034,
+    "None": 1
+  },
+  "source_distribution": {
+    "trec5": 49583,
+    "trec6": 15005,
+    "None": 1,
+    "trec7": 44096
+  },
+  "missing_or_empty_text": 1
+}

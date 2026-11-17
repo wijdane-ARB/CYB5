@@ -1,0 +1,19 @@
+{
+  "valid_source_counts": {
+    "trec5": 49518,
+    "trec6": 14996,
+    "trec7": 44084
+  },
+  "source_label_counts": {
+    "trec5_label_0": 29878,
+    "trec5_label_1": 19640,
+    "trec6_label_0": 11201,
+    "trec6_label_1": 3795,
+    "trec7_label_1": 24574,
+    "trec7_label_0": 19510
+  },
+  "missing_critical_fields": 2,
+  "short_messages": 85,
+  "duplicate_normalized_texts": 4145,
+  "conflicting_label_texts": 0
+}

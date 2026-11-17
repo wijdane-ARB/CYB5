@@ -1,0 +1,25 @@
+{
+  "excluded_rows": 87,
+  "conflicting_hashes": 0,
+  "duplicate_rows_removed": 4145,
+  "splits": {
+    "train": {
+      "source": "trec5",
+      "samples": 46584,
+      "label_0": 27359,
+      "label_1": 19225
+    },
+    "validation": {
+      "source": "trec6",
+      "samples": 14677,
+      "label_0": 11175,
+      "label_1": 3502
+    },
+    "test": {
+      "source": "trec7",
+      "samples": 43192,
+      "label_0": 19324,
+      "label_1": 23868
+    }
+  }
+}
