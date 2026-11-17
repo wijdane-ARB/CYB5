@@ -1,7 +1,25 @@
-.venv/ 
-__pycache__/ 
-data/raw/ 
-data/processed/ 
-data/adversarial/ 
-results/ 
-models/ 
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Raw and processed email datasets
+/data/
+
+# Trained models
+/models/
+
+# Generated experimental outputs
+/results/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# IDE files
+.vscode/
+.idea/
