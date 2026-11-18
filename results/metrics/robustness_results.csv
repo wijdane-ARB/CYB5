@@ -1,0 +1,6 @@
+transformation,accuracy,positive_recall,prediction_flip_rate,new_errors,new_error_rate_among_originally_correct
+original,1.0,1.0,0.0,0,0.0
+uppercase,1.0,1.0,0.0,0,0.0
+extra_spaces,1.0,1.0,0.0,0,0.0
+punctuation_removed,1.0,1.0,0.0,0,0.0
+neutral_footer,1.0,1.0,0.0,0,0.0

@@ -1,0 +1,5 @@
+model,condition,accuracy,recall,fpr,false_positives,false_negatives,prediction_flips_from_clean,newly_missed_positives
+Logistic Regression,clean,0.801,0.702,0.1,50,149,0,0
+Logistic Regression,neutral_footer,0.775,0.61,0.06,30,195,66,46
+ComplementNB,clean,0.866,0.776,0.044,22,112,0,0
+ComplementNB,neutral_footer,0.78,0.578,0.018,9,211,112,99

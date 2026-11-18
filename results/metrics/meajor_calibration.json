@@ -1,0 +1,29 @@
+{
+  "validation_fpr_target": 0.05,
+  "selected_threshold": 0.69,
+  "test_default": {
+    "threshold": 0.5,
+    "accuracy": 0.802278199666605,
+    "precision": 0.8012105014934758,
+    "recall": 0.8541142952907659,
+    "f1": 0.8268170019467878,
+    "fpr": 0.2617470503001449,
+    "tn": 14266,
+    "fp": 5058,
+    "fn": 3482,
+    "tp": 20386
+  },
+  "test_selected": {
+    "threshold": 0.69,
+    "accuracy": 0.7896832746804964,
+    "precision": 0.8952518447224895,
+    "recall": 0.7014831573655103,
+    "f1": 0.7866102889358704,
+    "fpr": 0.10137652659904782,
+    "tn": 17365,
+    "fp": 1959,
+    "fn": 7125,
+    "tp": 16743
+  },
+  "note": "Threshold chosen on TREC-06 only. TREC-07 has already been inspected and is an exploratory test, not a pristine benchmark."
+}

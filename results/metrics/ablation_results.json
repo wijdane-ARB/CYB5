@@ -1,0 +1,27 @@
+{
+    "experiment": "normalized_text_ablation",
+    "normalizations": [
+        "URL masking",
+        "Email address masking",
+        "Number masking",
+        "Lowercasing"
+    ],
+    "validation": {
+        "accuracy": 0.9941820670773442,
+        "precision": 0.9938593797973595,
+        "recall": 0.9956936327283913,
+        "f1": 0.9947756607252612
+    },
+    "test": {
+        "accuracy": 0.9946963216424294,
+        "precision": 0.9959950708564387,
+        "recall": 0.9944632420793602,
+        "f1": 0.9952285670309373
+    },
+    "nazario": {
+        "accuracy": 0.12404092071611253,
+        "precision": 1.0,
+        "recall": 0.12404092071611253,
+        "f1": 0.22070534698521047
+    }
+}

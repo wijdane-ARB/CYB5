@@ -1,0 +1,47 @@
+[
+    {
+        "transformation": "original",
+        "detected": 174,
+        "missed": 1390,
+        "recall": 0.11125319693094629,
+        "prediction_flips": 0,
+        "newly_missed": 0,
+        "recovered": 0
+    },
+    {
+        "transformation": "uppercase",
+        "detected": 174,
+        "missed": 1390,
+        "recall": 0.11125319693094629,
+        "prediction_flips": 0,
+        "newly_missed": 0,
+        "recovered": 0
+    },
+    {
+        "transformation": "extra_spaces",
+        "detected": 174,
+        "missed": 1390,
+        "recall": 0.11125319693094629,
+        "prediction_flips": 0,
+        "newly_missed": 0,
+        "recovered": 0
+    },
+    {
+        "transformation": "punctuation_removed",
+        "detected": 174,
+        "missed": 1390,
+        "recall": 0.11125319693094629,
+        "prediction_flips": 0,
+        "newly_missed": 0,
+        "recovered": 0
+    },
+    {
+        "transformation": "neutral_footer",
+        "detected": 84,
+        "missed": 1480,
+        "recall": 0.05370843989769821,
+        "prediction_flips": 90,
+        "newly_missed": 90,
+        "recovered": 0
+    }
+]

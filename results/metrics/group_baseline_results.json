@@ -1,0 +1,31 @@
+{
+    "experiment": "group_aware_baseline",
+    "model": "TF-IDF + Logistic Regression",
+    "training_size": 28425,
+    "validation": {
+        "samples": 5378,
+        "accuracy": 0.9944217181108219,
+        "precision": 0.995989792198323,
+        "recall": 0.9930934205743366,
+        "f1": 0.9945394976337824,
+        "false_positive_rate": 0.004187285877426722,
+        "tn": 2616,
+        "fp": 11,
+        "fn": 19,
+        "tp": 2732
+    },
+    "test": {
+        "samples": 5297,
+        "accuracy": 0.9933924863130074,
+        "precision": 0.9963045084996305,
+        "recall": 0.9908122013965454,
+        "f1": 0.9935507646950433,
+        "false_positive_rate": 0.0038819875776397515,
+        "tn": 2566,
+        "fp": 10,
+        "fn": 25,
+        "tp": 2696
+    },
+    "nazario_exploratory_recall": 0.13043478260869565,
+    "notes": "Approximate MinHash LSH groups; Nazario used for exploratory evaluation only."
+}

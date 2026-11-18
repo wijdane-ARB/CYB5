@@ -6,16 +6,23 @@ __pycache__/
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Raw and processed email datasets
+# Raw and processed datasets
 /data/
 
 # Trained models
 /models/
 
-# Generated experimental outputs
-/results/
+# Experimental results
+/results/*
+!/results/metrics/
+!/results/figures/
+!/results/metrics/**
+!/results/figures/**
 
-# Local environment files
+# Large archives
+/results/*.zip
+
+# Local environment and secrets
 .env
 .env.*
 !.env.example
@@ -23,3 +30,6 @@ __pycache__/
 # IDE files
 .vscode/
 .idea/
+# Keep dataset identifiers local
+/results/metrics/*split_ids.csv
+/results/metrics/group_*_ids.csv

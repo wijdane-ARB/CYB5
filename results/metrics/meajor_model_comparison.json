@@ -1,0 +1,33 @@
+{
+  "bootstrap_iterations": 1000,
+  "method": "paired stratified bootstrap",
+  "lr_threshold": 0.69,
+  "nb_threshold": 0.64,
+  "comparison": {
+    "accuracy": {
+      "difference": 0.058182070753843296,
+      "ci_low": 0.05533316354880531,
+      "ci_high": 0.061516021485460204
+    },
+    "precision": {
+      "difference": 0.056484901164164936,
+      "ci_low": 0.05295692530172523,
+      "ci_high": 0.060184092749007684
+    },
+    "recall": {
+      "difference": 0.06192391486509141,
+      "ci_low": 0.05752471928942515,
+      "ci_high": 0.06686777275012568
+    },
+    "f1": {
+      "difference": 0.06062194318000158,
+      "ci_low": 0.05750461867081288,
+      "ci_high": 0.06433937837421894
+    },
+    "fpr": {
+      "difference": -0.05356033947422894,
+      "ci_low": -0.057391068101842274,
+      "ci_high": -0.04978265369488719
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "model": "TF-IDF + ComplementNB",
+  "training_source": "trec5",
+  "validation_source": "trec6",
+  "test_source": "trec7",
+  "validation_fpr_target": 0.05,
+  "validation_selected": {
+    "threshold": 0.64,
+    "accuracy": 0.9193976970770593,
+    "precision": 0.8391342497806377,
+    "recall": 0.8192461450599657,
+    "f1": 0.8290709435052738,
+    "fpr": 0.049217002237136466,
+    "tn": 10625,
+    "fp": 550,
+    "fn": 633,
+    "tp": 2869
+  },
+  "test_default": {
+    "threshold": 0.5,
+    "accuracy": 0.858515465827005,
+    "precision": 0.9132033322474054,
+    "recall": 0.8221049103402045,
+    "f1": 0.8652629258075185,
+    "fpr": 0.096512109294142,
+    "tn": 17459,
+    "fp": 1865,
+    "fn": 4246,
+    "tp": 19622
+  },
+  "test_selected": {
+    "threshold": 0.64,
+    "accuracy": 0.8478653454343397,
+    "precision": 0.9517367458866545,
+    "recall": 0.7634070722306017,
+    "f1": 0.847232232115872,
+    "fpr": 0.04781618712481888,
+    "tn": 18400,
+    "fp": 924,
+    "fn": 5647,
+    "tp": 18221
+  },
+  "limitations": [
+    "Positive labels may contain generic spam",
+    "TREC-07 is an exploratory evaluation set"
+  ]
+}

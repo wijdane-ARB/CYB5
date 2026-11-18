@@ -1,0 +1,30 @@
+{
+    "dataset": "Phishing Validation Emails v3",
+    "email_records": 2000,
+    "metadata_records": 2000,
+    "email_columns": [
+        "Email Text",
+        "Email Type"
+    ],
+    "metadata_columns": [
+        "record_id",
+        "email_type",
+        "source_category",
+        "template_id",
+        "has_url"
+    ],
+    "label_distribution": {
+        "Safe Email": 1000,
+        "Phishing Email": 1000
+    },
+    "source_distribution": {
+        "generated_v3": 1900,
+        "original_v1": 100
+    },
+    "unique_templates": 53,
+    "missing_text": 0,
+    "empty_text": 0,
+    "duplicate_emails": 0,
+    "missing_labels": 0,
+    "metadata_alignment_verified": true
+}

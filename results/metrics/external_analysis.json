@@ -1,0 +1,7 @@
+{
+    "dataset": "Nazario",
+    "total": 1564,
+    "detected": 174,
+    "missed": 1390,
+    "recall": 0.11125319693094629
+}

@@ -1,0 +1,31 @@
+{
+  "method": "Template-aware group splitting",
+  "random_seed": 42,
+  "note": "Generated data are synthetic. Original subset is exploratory and was previously evaluated.",
+  "partitions": {
+    "train": {
+      "samples": 1307,
+      "safe": 632,
+      "phishing": 675,
+      "templates": 36
+    },
+    "validation": {
+      "samples": 277,
+      "safe": 134,
+      "phishing": 143,
+      "templates": 8
+    },
+    "test": {
+      "samples": 316,
+      "safe": 157,
+      "phishing": 159,
+      "templates": 8
+    },
+    "original_exploratory": {
+      "samples": 100,
+      "safe": 77,
+      "phishing": 23,
+      "templates": 1
+    }
+  }
+}

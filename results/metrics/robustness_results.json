@@ -1,0 +1,42 @@
+[
+    {
+        "transformation": "original",
+        "accuracy": 1.0,
+        "positive_recall": 1.0,
+        "prediction_flip_rate": 0.0,
+        "new_errors": 0,
+        "new_error_rate_among_originally_correct": 0.0
+    },
+    {
+        "transformation": "uppercase",
+        "accuracy": 1.0,
+        "positive_recall": 1.0,
+        "prediction_flip_rate": 0.0,
+        "new_errors": 0,
+        "new_error_rate_among_originally_correct": 0.0
+    },
+    {
+        "transformation": "extra_spaces",
+        "accuracy": 1.0,
+        "positive_recall": 1.0,
+        "prediction_flip_rate": 0.0,
+        "new_errors": 0,
+        "new_error_rate_among_originally_correct": 0.0
+    },
+    {
+        "transformation": "punctuation_removed",
+        "accuracy": 1.0,
+        "positive_recall": 1.0,
+        "prediction_flip_rate": 0.0,
+        "new_errors": 0,
+        "new_error_rate_among_originally_correct": 0.0
+    },
+    {
+        "transformation": "neutral_footer",
+        "accuracy": 1.0,
+        "positive_recall": 1.0,
+        "prediction_flip_rate": 0.0,
+        "new_errors": 0,
+        "new_error_rate_among_originally_correct": 0.0
+    }
+]

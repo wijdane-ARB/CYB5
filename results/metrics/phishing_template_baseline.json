@@ -1,0 +1,37 @@
+{
+  "experiment": "Phishing template baseline",
+  "classifier": "TF-IDF + Logistic Regression",
+  "training_samples": 1307,
+  "training_templates": 36,
+  "selected_threshold": 0.44,
+  "validation": {
+    "samples": 277,
+    "accuracy": 0.9963898916967509,
+    "precision": 0.9930555555555556,
+    "recall": 1.0,
+    "f1": 0.9965156794425087,
+    "fpr": 0.007462686567164179,
+    "tn": 133,
+    "fp": 1,
+    "fn": 0,
+    "tp": 143
+  },
+  "test": {
+    "samples": 316,
+    "accuracy": 0.870253164556962,
+    "precision": 0.795,
+    "recall": 1.0,
+    "f1": 0.8857938718662952,
+    "fpr": 0.2611464968152866,
+    "tn": 116,
+    "fp": 41,
+    "fn": 0,
+    "tp": 159
+  },
+  "limitations": [
+    "Synthetic template-generated corpus",
+    "Validation threshold selected using F1",
+    "Test performance applies to held-out templates",
+    "Independent real-world validation still needed"
+  ]
+}
