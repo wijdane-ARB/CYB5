@@ -1,4 +1,3 @@
-
 # Python environment
 .venv/
 venv/
@@ -19,13 +18,18 @@ __pycache__/
 !/results/figures/
 /results/metrics/**
 /results/figures/**
+
+# Explicitly reviewed documentation and non-identifying metrics
 !/results/metrics/README.md
 !/results/figures/README.md
+!/results/metrics/exp38_pilot_summary_public.csv
+!/results/metrics/exp40_three_seed_summary_public.csv
+!/results/metrics/exp41_three_seed_summary_public.csv
 
-# Experiment 38 local package (review before publishing)
+# Private local Experiment 38 files
 CYB5_Experiment38_Package/
 
-# Large archives and model files
+# Archives, data files and weights
 *.zip
 *.parquet
 *.safetensors
@@ -41,3 +45,8 @@ CYB5_Experiment38_Package/
 # IDE
 .vscode/
 .idea/
+
+# Backup created by notebook sanitizer
+*.ipynb.bak
+
+*.bak

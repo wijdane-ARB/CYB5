@@ -1,0 +1,10 @@
+experiment,seed,dataset,benchmark_status,n,threshold,selected_epoch,accuracy,precision,recall,f1,fpr,tn,fp,fn,tp
+40,42,validation,synthetic_validation,277,0.5,1,1.0,1.0,1.0,1.0,0.0,134,0,0,143
+40,42,test,previously_inspected_exploratory,316,0.5,1,1.0,1.0,1.0,1.0,0.0,157,0,0,159
+40,42,original_exploratory,previously_inspected_exploratory,100,0.5,1,0.99,1.0,0.9565217391304348,0.9777777777777777,0.0,77,0,1,22
+40,123,validation,synthetic_validation,277,0.5,1,1.0,1.0,1.0,1.0,0.0,134,0,0,143
+40,123,test,previously_inspected_exploratory,316,0.5,1,1.0,1.0,1.0,1.0,0.0,157,0,0,159
+40,123,original_exploratory,previously_inspected_exploratory,100,0.5,1,0.99,1.0,0.9565217391304348,0.9777777777777777,0.0,77,0,1,22
+40,2026,validation,synthetic_validation,277,0.5,1,1.0,1.0,1.0,1.0,0.0,134,0,0,143
+40,2026,test,previously_inspected_exploratory,316,0.5,1,1.0,1.0,1.0,1.0,0.0,157,0,0,159
+40,2026,original_exploratory,previously_inspected_exploratory,100,0.5,1,0.99,1.0,0.9565217391304348,0.9777777777777777,0.0,77,0,1,22

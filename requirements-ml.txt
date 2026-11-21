@@ -1,0 +1,6 @@
+# Optional local DistilBERT / Transformer evaluation environment.
+# In GPU Colab, use the notebook's runtime installer so CUDA wheels match the GPU.
+-r requirements.txt
+torch>=2.2,<3
+transformers>=4.45,<5
+accelerate>=0.27

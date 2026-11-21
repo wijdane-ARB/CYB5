@@ -1,0 +1,42 @@
+CYB-5 GitHub additions — corrected V2 — 2026-11-21
+
+This package supersedes CYB5_GitHub_Missing_Files.zip and the earlier roadmap package.
+The existing TF-IDF work is completed; do not assign reimplementation.
+The two definitive team documents are docs/CYB5_RESEARCH_ROADMAP.md and docs/TEAM_HANDOFF.md.
+If old roadmap copies have already been distributed, mark them superseded.
+
+1. Make a backup of your existing D:\CYB5\requirements.txt and .gitignore.
+2. Extract this ZIP into D:\CYB5, merging directories (do not delete existing files).
+   This package updates .gitignore and requirements.txt, and adds documented files.
+3. Run in Windows CMD:
+
+   cd /d D:\CYB5
+   .venv\Scripts\activate
+   python -m unittest discover -s tests -v
+   python -m py_compile src\evaluation\experiment38_distilbert_pilot.py src\evaluation\check_ceas_raw_provenance.py
+   python scripts\sanitize_notebooks.py --check notebooks\CYB5_Experiment40_ONE_CLICK_FINAL.ipynb notebooks\CYB5_Experiment41_3seeds_External_Robustness.ipynb
+
+4. If the existing notebooks still contain outputs, preserve the executed copies separately,
+   then run:
+   python scripts\sanitize_notebooks.py --clean notebooks\CYB5_Experiment40_ONE_CLICK_FINAL.ipynb notebooks\CYB5_Experiment41_3seeds_External_Robustness.ipynb
+   to clear outputs.
+   It will make .ipynb.bak files: DO NOT commit these backups! Move them outside repo.
+5. Review all staged diffs, especially requirements, .gitignore, result summaries and notebooks.
+   git add .gitignore README.md requirements.txt requirements-ml.txt
+   git add docs/CYB5_RESEARCH_ROADMAP.md docs/TEAM_HANDOFF.md docs/EXPERIMENTAL_PROTOCOL.md docs/PRIVACY_AND_LIMITATIONS.md
+   git add scripts/sanitize_notebooks.py tests/test_experiment38_attacks.py src/evaluation/experiment38_distilbert_pilot.py src/evaluation/check_ceas_raw_provenance.py
+   git add results/metrics/README.md results/figures/README.md results/metrics/exp38_pilot_summary_public.csv results/metrics/exp40_three_seed_summary_public.csv results/metrics/exp41_three_seed_summary_public.csv
+   git add notebooks/CYB5_Experiment40_ONE_CLICK_FINAL.ipynb notebooks/CYB5_Experiment41_3seeds_External_Robustness.ipynb
+   git diff --cached --name-only
+   git diff --cached --check
+   git diff --cached --stat
+   git commit -m "CYB-5: add reproducibility guide and sanitized experiment summaries"
+   git push origin main
+
+IMPORTANT
+- Private files data/, models/, sample IDs, direct message texts and checkpoint archives stay untracked.
+- The added provenance checker expects a *private* local clues CSV rather than literal
+  email snippets inside GitHub code.
+- This does not fix previously tracked private identifiers elsewhere in git history.
+- Do not interpret Exp. 38/41 as independently validated phishing performance.
+- Original experiment 40 training histories are incomplete.

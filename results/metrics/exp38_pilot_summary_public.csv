@@ -1,0 +1,5 @@
+experiment,model,condition,benchmark_status,n,n_positive,n_negative,eligible_positive,changed_positive,detected_to_missed_flips,tn,fp,fn,tp,accuracy,precision,recall,f1,fpr,threshold,valid_attack_certified
+38,distilbert_cyb5,clean,EXPLORATORY_SOURCE_CLASS_CONFOUNDED,160,80,80,0,0,0,9,71,1,79,0.55,0.5266666666666666,0.9875,0.6869565217391305,0.8875,0.5,False
+38,distilbert_cyb5,lexical_proxy,EXPLORATORY_SOURCE_CLASS_CONFOUNDED,160,80,80,42,42,0,9,71,1,79,0.55,0.5266666666666666,0.9875,0.6869565217391305,0.8875,0.5,False
+38,distilbert_cyb5,neutral_hidden_html,EXPLORATORY_SOURCE_CLASS_CONFOUNDED,160,80,80,80,80,0,9,71,0,80,0.55625,0.5298013245033113,1.0,0.6926406926406926,0.8875,0.5,False
+38,distilbert_cyb5,url_defang,EXPLORATORY_SOURCE_CLASS_CONFOUNDED,160,80,80,13,13,0,9,71,1,79,0.55,0.5266666666666666,0.9875,0.6869565217391305,0.8875,0.5,False
