@@ -1,35 +1,43 @@
 
-# Python
+# Python environment
 .venv/
+venv/
 __pycache__/
 *.pyc
 .pytest_cache/
 .ipynb_checkpoints/
 
-# Raw and processed datasets
+# Private datasets and audits
 /data/
 
-# Trained models
+# Trained model checkpoints
 /models/
 
-# Experimental results
+# Experimental results: private by default
 /results/*
 !/results/metrics/
 !/results/figures/
-!/results/metrics/**
-!/results/figures/**
+/results/metrics/**
+/results/figures/**
+!/results/metrics/README.md
+!/results/figures/README.md
 
-# Large archives
-/results/*.zip
+# Experiment 38 local package (review before publishing)
+CYB5_Experiment38_Package/
 
-# Local environment and secrets
+# Large archives and model files
+*.zip
+*.parquet
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+
+# Secrets
 .env
 .env.*
 !.env.example
 
-# IDE files
+# IDE
 .vscode/
 .idea/
-# Keep dataset identifiers local
-/results/metrics/*split_ids.csv
-/results/metrics/group_*_ids.csv
