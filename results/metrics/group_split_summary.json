@@ -1,9 +1,9 @@
 {
   "total": 39100,
   "groups": 31894,
-  "train": 28425,
-  "validation": 5378,
-  "test": 5297,
+  "train": 27563,
+  "validation": 6224,
+  "test": 5313,
   "threshold": 0.8,
   "num_perm": 64
 }
