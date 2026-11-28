@@ -25,6 +25,8 @@ __pycache__/
 !/results/metrics/exp38_pilot_summary_public.csv
 !/results/metrics/exp40_three_seed_summary_public.csv
 !/results/metrics/exp41_three_seed_summary_public.csv
+!/results/metrics/llm_aggregate.csv
+!/results/metrics/llm_run_record.json
 
 # Private local Experiment 38 files
 CYB5_Experiment38_Package/
