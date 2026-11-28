@@ -50,3 +50,5 @@ CYB5_Experiment38_Package/
 *.ipynb.bak
 
 *.bak
+/results/metrics/near_duplicate_audit.csv
+/results/metrics/group_near_duplicate_audit.csv
