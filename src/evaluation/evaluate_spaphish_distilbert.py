@@ -188,11 +188,15 @@ tn, fp, fn, tp = confusion_matrix(
 
 metrics = {
     "dataset": "SpaPhish",
-    "model": "Frozen DistilBERT",
+    "model": "Fine-tuned DistilBERT (frozen during external evaluation)",
+    "training_domain": "Synthetic English phishing/legitimate emails",
+    "evaluation_language": "Spanish",
+    "evaluation_type": "Cross-language and cross-source transfer",
     "samples": len(df),
     "threshold": THRESHOLD,
     "max_length": MAX_LENGTH,
     "truncated_emails": int(truncated_count),
+    "truncation_note": "Emails exceeding the 256-token limit were truncated during inference",
     "accuracy": float(accuracy_score(
         y_true, predictions
     )),
