@@ -1,0 +1,16 @@
+{
+  "model": "qwen2.5:7b-instruct",
+  "ollama_url": "http://127.0.0.1:11434",
+  "prompt_file": "configs/llm_prompt_v1.txt",
+  "prompt_sha256": "08954d3de18680d5be8f22028776f8450f61abeecc534998af10203194aca075",
+  "temperature": 0.0,
+  "seed": 42,
+  "num_ctx": 8192,
+  "num_predict": 32,
+  "constrained_decoding": false,
+  "invalid_policy": "legitimate",
+  "timeout_s": 180,
+  "keep_alive": "30m",
+  "max_email_chars": null,
+  "model_license_note": "Qwen2.5-7B-Instruct: Apache-2.0 according to the model card; verify before submission."
+}
