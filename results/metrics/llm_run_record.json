@@ -1,0 +1,69 @@
+{
+  "experiment": "LLM zero-shot pilot",
+  "benchmark_status": "EXPLORATORY_SOURCE_CLASS_CONFOUNDED",
+  "date_utc": "2026-11-28T12:23:05Z",
+  "model": "qwen2.5:7b-instruct",
+  "model_digest": "845dbda0ea48ed749caafd9e6037047aa19acfcfd82e704d7ca97d631a0b697e",
+  "model_details": {
+    "parent_model": "",
+    "format": "gguf",
+    "family": "qwen2",
+    "families": [
+      "qwen2"
+    ],
+    "parameter_size": "7.6B",
+    "quantization_level": "Q4_K_M"
+  },
+  "model_license_note": "Qwen2.5-7B-Instruct: Apache-2.0 according to the model card; verify before submission.",
+  "ollama_version": "0.40.14",
+  "config": {
+    "temperature": 0.0,
+    "seed": 42,
+    "num_ctx": 8192,
+    "num_predict": 32,
+    "constrained_decoding": false,
+    "invalid_policy": "legitimate",
+    "max_email_chars": null,
+    "timeout_s": 180
+  },
+  "prompt_file": "configs/llm_prompt_v1.txt",
+  "prompt_sha256": "08954d3de18680d5be8f22028776f8450f61abeecc534998af10203194aca075",
+  "manifest_sha256_private_file": "5c241a39dcc2bf6ffe2876dbab764b29302afb9f1cd73324ce3fa0e85d40971b",
+  "attack_code_sha256": "f248df3ace44b296f59d73adea08a33474996d820ea9f63e4eba6c1b93bb532f",
+  "changed_positives": {
+    "lexical_proxy": 42,
+    "neutral_hidden_html": 80,
+    "url_defang": 13
+  },
+  "conditions": [
+    "clean",
+    "lexical_proxy",
+    "neutral_hidden_html",
+    "url_defang"
+  ],
+  "n_messages": 160,
+  "model_load_seconds_excluded": 0.0,
+  "wall_seconds": 0.1,
+  "hardware": {
+    "gpu": "none detected",
+    "platform": "Linux-6.18.60-1-lts-x86_64-with-glibc2.44",
+    "python": "3.13.12",
+    "pandas": "3.1.1",
+    "numpy": "2.5.5",
+    "batch_size": 1
+  },
+  "validation_report": {
+    "validation_set": "synthetic, inert, disjoint from the pilot",
+    "n": 14,
+    "output_classes": {
+      "strict": 14
+    },
+    "invalid_or_error_rate": 0.0,
+    "refusals": 0,
+    "plain_accuracy_indicative": 1.0,
+    "injection_cases_correct": "1/2",
+    "prompt_sha256": "08954d3de18680d5be8f22028776f8450f61abeecc534998af10203194aca075",
+    "invalid_policy": "legitimate"
+  },
+  "attacks_certified_intent_preserving": false
+}
